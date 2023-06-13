@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="testsclass.CheckOut_overviewTest">
+        <methods>
+          <include name="checkout_final"/>
+          <include name="initBrowser"/>
+          <include name="createobject"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.CheckOut_overviewTest -->
+      <class name="testsclass.YourInfoTest">
+        <methods>
+          <include name="checkOut"/>
+          <include name="initBrowser"/>
+          <include name="createobject"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.YourInfoTest -->
+      <class name="testsclass.ProductTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="addToCart"/>
+          <include name="createobject"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.ProductTest -->
+      <class name="testsclass.LastPageTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="back_to_home"/>
+          <include name="createobject"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.LastPageTest -->
+      <class name="testsclass.CheckOutTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="checkout"/>
+          <include name="createobject"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.CheckOutTest -->
+      <class name="testsclass.LoginTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="createobject"/>
+          <include name="verifylogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testsclass.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
